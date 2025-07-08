@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Angelica</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background: #f0f0f0;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      background: linear-gradient(90deg, #7f5af0, #2cb7ff);
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      transition: background 0.3s ease;
+    }
+
+    header.scrolled {
+      background: #000;
+    }
+
+    .logo img {
+      height: 40px;
+    }
+
+    nav ul {
+      display: flex;
+      gap: 25px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav ul li a:hover {
+      border-bottom: 2px solid white;
+    }
+
+    #home {
+      background: linear-gradient(90deg, #7f5af0, #2cb7ff);
+      padding: 60px 0;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      background: white;
+      display: flex;
+      align-items: center;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      color: #333;
+    }
+
+    .profile-img {
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .profile-img img {
+      width: 90%;
+      max-width: 250px;
+      border-radius: 10px;
+    }
+
+    .profile-info {
+      width: 60%;
+    }
+
+    .profile-info h4 {
+      letter-spacing: 2px;
+      color: #888;
+      margin: 0 0 10px 0;
+      font-size: 14px;
+    }
+
+    .profile-info h1 {
+      font-size: 32px;
+      margin: 0;
+    }
+
+    .profile-info h3 {
+      color: #7f5af0;
+      margin-top: 10px;
+    }
+
+    .profile-info p {
+      font-size: 14px;
+      color: #555;
+      margin-top: 15px;
+      line-height: 1.6;
+    }
+
+    .info-list {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #444;
+    }
+
+    .info-list div {
+      margin-bottom: 10px;
+    }
+
+    .skills-list {
+      margin-top: 20px;
+    }
+
+    .skills-list h4 {
+      margin-bottom: 10px;
+      color: #7f5af0;
+    }
+
+    .skills-list ul {
+      list-style: none;
+      padding-left: 0;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .skills-list li::before {
+      content: "• ";
+      color: #2cb7ff;
+    }
+
+    .social-icons {
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+      margin-right: 12px;
+      font-size: 18px;
+      color: #555;
+      text-decoration: none;
+    }
+
+    .social-icons a:hover {
+      color: #7f5af0;
+    }
+
+    footer {
+      background: #222;
+      color: #ccc;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+ 
+  <header id="main-header">
+    <div class="logo">
+      <a href="#home">
+        <img src="C:\Users\Admin\Documents\Cabusor_profile.html\Image\EN.webp">
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="contact us.html">Contact Us</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+  <section id="home">
+    <div class="container">
+      <div class="profile-img">
+        <img src="C:\Users\Admin\Documents\Cabusor_profile.html\Image\profile picture.jpeg">
+      </div>
+      <div class="profile-info">
+        <h4>About me</h4>
+        <h1>Angelica Cabusor</h1>
+        <h3>Web Designer & Developer</h3>
+        <p>Hello! I am a passionate IT undergraduate with interests in web design and UI Design.</p>
+        <p>I'm Angelica Cabusor, an Information Technology student passionate about web design and development. I enjoy creating modern, responsive websites and exploring the latest trends in user interface design.</p>
+        <p>Through my academic projects and internship experience, I’ve been involved in UI testing, website development, and laptop troubleshooting. I'm eager to keep learning and growing in the ever-evolving world of technology.</p>
+
+        <div class="info-list">
+          <div>Email: angelicacabusor@gmail.com</div>
+          <div>Location: Philippines</div>
+        </div>
+
+      
+        <div class="skills-list">
+          <h4>Skills</h4>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>C++</li>
+            <li>UI/UX Design</li>
+          </ul>
+        </div>
+
+        <div class="social-icons">
+          <a href="https://www.facebook.com/en.cabusor.2025/about/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.linkedin.com/feed/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://x.com/home"aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Angelica | Portfolio. All Rights Reserved.
+  </footer>
+
+  <script>
+    const header = document.getElementById('main-header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 50);
+    });
+  </script>
+
+</body>
+</html>
+
+
